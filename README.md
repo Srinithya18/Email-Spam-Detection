@@ -35,4 +35,5 @@ For the K nearest neighbors, classify the email as the class which has the most 
 7. Sort the emails in ascending order of euclidean distance
 8. Select the k nearest neighbors (shortest distance)
 9. Assign the class which is most frequent in the selected k nearest neighbours to the new email.
+
 ###Experiment Accuracy :71.875
