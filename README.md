@@ -22,6 +22,7 @@ After that, compute the similarity of this email to any email in training set.
 Sort the training set by similarity and select the K nearest neighbors.
 For the K nearest neighbors, classify the email as the class which has the most number of neighbors.
 ###Experiment Accuracy: 78.125% (when K=11)
+
 #Eucledian Distance
 1. Load the spam and ham emails
 2. Remove common punctuation and symbols
@@ -34,4 +35,4 @@ For the K nearest neighbors, classify the email as the class which has the most 
 7. Sort the emails in ascending order of euclidean distance
 8. Select the k nearest neighbors (shortest distance)
 9. Assign the class which is most frequent in the selected k nearest neighbours to the new email.
-Experiment Accuracy :71.875
+###Experiment Accuracy :71.875
